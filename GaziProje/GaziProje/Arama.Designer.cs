@@ -44,6 +44,8 @@ namespace GaziProje
             this.minTextBox = new System.Windows.Forms.TextBox();
             this.maxTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.DegerlendirmeBtn = new System.Windows.Forms.Button();
+            this.FiyatsiralaBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -116,13 +118,14 @@ namespace GaziProje
             this.SıralaBtn.TabIndex = 4;
             this.SıralaBtn.Text = "Tüm sahalaarı sırala";
             this.SıralaBtn.UseVisualStyleBackColor = true;
+            this.SıralaBtn.Click += new System.EventHandler(this.SıralaBtn_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Cursor = System.Windows.Forms.Cursors.No;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(909, 155);
+            this.label2.Location = new System.Drawing.Point(914, 305);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 5;
@@ -131,7 +134,7 @@ namespace GaziProje
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1071, 155);
+            this.comboBox1.Location = new System.Drawing.Point(1076, 305);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 6;
@@ -141,7 +144,7 @@ namespace GaziProje
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.No;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(909, 252);
+            this.label3.Location = new System.Drawing.Point(914, 402);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 25);
             this.label3.TabIndex = 7;
@@ -149,7 +152,7 @@ namespace GaziProje
             // 
             // minTextBox
             // 
-            this.minTextBox.Location = new System.Drawing.Point(1107, 252);
+            this.minTextBox.Location = new System.Drawing.Point(1112, 402);
             this.minTextBox.Name = "minTextBox";
             this.minTextBox.Size = new System.Drawing.Size(40, 22);
             this.minTextBox.TabIndex = 8;
@@ -157,7 +160,7 @@ namespace GaziProje
             // 
             // maxTextBox
             // 
-            this.maxTextBox.Location = new System.Drawing.Point(1178, 252);
+            this.maxTextBox.Location = new System.Drawing.Point(1183, 402);
             this.maxTextBox.Name = "maxTextBox";
             this.maxTextBox.Size = new System.Drawing.Size(40, 22);
             this.maxTextBox.TabIndex = 9;
@@ -167,12 +170,31 @@ namespace GaziProje
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(1153, 249);
+            this.label4.Location = new System.Drawing.Point(1158, 399);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(19, 25);
             this.label4.TabIndex = 10;
             this.label4.Text = "-";
             this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // DegerlendirmeBtn
+            // 
+            this.DegerlendirmeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DegerlendirmeBtn.Location = new System.Drawing.Point(996, 136);
+            this.DegerlendirmeBtn.Name = "DegerlendirmeBtn";
+            this.DegerlendirmeBtn.Size = new System.Drawing.Size(164, 47);
+            this.DegerlendirmeBtn.TabIndex = 11;
+            this.DegerlendirmeBtn.Text = "Değerlendirmeye göre sırala";
+            this.DegerlendirmeBtn.UseVisualStyleBackColor = true;
+            // 
+            // FiyatsiralaBtn
+            // 
+            this.FiyatsiralaBtn.Location = new System.Drawing.Point(1093, 439);
+            this.FiyatsiralaBtn.Name = "FiyatsiralaBtn";
+            this.FiyatsiralaBtn.Size = new System.Drawing.Size(130, 24);
+            this.FiyatsiralaBtn.TabIndex = 12;
+            this.FiyatsiralaBtn.Text = "Sırala";
+            this.FiyatsiralaBtn.UseVisualStyleBackColor = true;
             // 
             // Arama
             // 
@@ -180,6 +202,8 @@ namespace GaziProje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(1267, 686);
+            this.Controls.Add(this.FiyatsiralaBtn);
+            this.Controls.Add(this.DegerlendirmeBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.maxTextBox);
             this.Controls.Add(this.minTextBox);
@@ -196,6 +220,7 @@ namespace GaziProje
             this.Name = "Arama";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arama";
+            this.Load += new System.EventHandler(this.Arama_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,5 +243,7 @@ namespace GaziProje
         private System.Windows.Forms.TextBox minTextBox;
         private System.Windows.Forms.TextBox maxTextBox;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button DegerlendirmeBtn;
+        private System.Windows.Forms.Button FiyatsiralaBtn;
     }
 }
