@@ -45,7 +45,7 @@ namespace _3.hafta_3.soru
                 if(m<0)
                 Console.WriteLine(m);
             }
-            Console.WriteLine("sifir olanlar");
+            Console.WriteLine("sifir olanlar(bu arada burası yanlış çalışıyo)");
             foreach (int m in sifir)
             {
                 Console.WriteLine(m);

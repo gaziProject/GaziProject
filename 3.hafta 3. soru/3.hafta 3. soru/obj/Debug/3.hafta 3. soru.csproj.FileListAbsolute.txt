@@ -5,3 +5,10 @@ C:\Users\6ncaf\OneDrive\Masaüstü\C#\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\
 C:\Users\6ncaf\OneDrive\Masaüstü\C#\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\3.hafta 3. soru.csproj.CoreCompileInputs.cache
 C:\Users\6ncaf\OneDrive\Masaüstü\C#\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\_3.hafta_3.soru.exe
 C:\Users\6ncaf\OneDrive\Masaüstü\C#\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\_3.hafta_3.soru.pdb
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\bin\Debug\_3.hafta_3.soru.exe.config
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\bin\Debug\_3.hafta_3.soru.exe
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\bin\Debug\_3.hafta_3.soru.pdb
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\3.hafta 3. soru.csproj.AssemblyReference.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\3.hafta 3. soru.csproj.CoreCompileInputs.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\_3.hafta_3.soru.exe
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\3.hafta 3. soru\3.hafta 3. soru\obj\Debug\_3.hafta_3.soru.pdb
