@@ -12,3 +12,17 @@ C:\Users\6ncaf\OneDrive\Masaüstü\Form\GaziProje\GaziProje\obj\Debug\GaziProje.
 C:\Users\6ncaf\OneDrive\Masaüstü\Form\GaziProje\GaziProje\obj\Debug\GaziProje.AnaEkran.resources
 C:\Users\6ncaf\OneDrive\Masaüstü\Form\GaziProje\GaziProje\obj\Debug\GaziProje.AnaEkran.tr.resources
 C:\Users\6ncaf\OneDrive\Masaüstü\Form\GaziProje\GaziProje\obj\Debug\tr\GaziProje.resources.dll
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\bin\Debug\GaziProje.exe.config
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\bin\Debug\GaziProje.exe
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\bin\Debug\GaziProje.pdb
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\bin\Debug\tr\GaziProje.resources.dll
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.csproj.AssemblyReference.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.Arama.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.AnaEkran.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.Properties.Resources.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.AnaEkran.tr.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.csproj.GenerateResource.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.csproj.CoreCompileInputs.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\tr\GaziProje.resources.dll
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.exe
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\GaziProje\GaziProje\obj\Debug\GaziProje.pdb

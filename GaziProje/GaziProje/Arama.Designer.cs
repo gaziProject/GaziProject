@@ -30,17 +30,20 @@ namespace GaziProje
         private void InitializeComponent()
         {
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SahaNoTextBox = new System.Windows.Forms.TextBox();
-            this.AraButton = new System.Windows.Forms.Button();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label1 = new System.Windows.Forms.Label();
+            this.SahaNoTextBox = new System.Windows.Forms.TextBox();
+            this.AraButton = new System.Windows.Forms.Button();
             this.SıralaBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.minTextBox = new System.Windows.Forms.TextBox();
+            this.maxTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listView1
@@ -57,6 +60,25 @@ namespace GaziProje
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "No";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Halısaha Adı";
+            this.columnHeader2.Width = 232;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "İlçe";
+            this.columnHeader3.Width = 256;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Fiyat";
+            this.columnHeader4.Width = 95;
             // 
             // label1
             // 
@@ -84,25 +106,6 @@ namespace GaziProje
             this.AraButton.TabIndex = 3;
             this.AraButton.Text = "Ara";
             this.AraButton.UseVisualStyleBackColor = true;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "No";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Halısaha Adı";
-            this.columnHeader2.Width = 232;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "İlçe";
-            this.columnHeader3.Width = 256;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Fiyat";
-            this.columnHeader4.Width = 95;
             // 
             // SıralaBtn
             // 
@@ -138,11 +141,38 @@ namespace GaziProje
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.No;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(909, 242);
+            this.label3.Location = new System.Drawing.Point(909, 252);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 25);
             this.label3.TabIndex = 7;
             this.label3.Text = "Fiyat Aralığı Giriniz";
+            // 
+            // minTextBox
+            // 
+            this.minTextBox.Location = new System.Drawing.Point(1107, 252);
+            this.minTextBox.Name = "minTextBox";
+            this.minTextBox.Size = new System.Drawing.Size(40, 22);
+            this.minTextBox.TabIndex = 8;
+            this.minTextBox.Text = "min";
+            // 
+            // maxTextBox
+            // 
+            this.maxTextBox.Location = new System.Drawing.Point(1178, 252);
+            this.maxTextBox.Name = "maxTextBox";
+            this.maxTextBox.Size = new System.Drawing.Size(40, 22);
+            this.maxTextBox.TabIndex = 9;
+            this.maxTextBox.Text = "max";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(1153, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(19, 25);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "-";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Arama
             // 
@@ -150,6 +180,9 @@ namespace GaziProje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(1267, 686);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.maxTextBox);
+            this.Controls.Add(this.minTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
@@ -182,5 +215,8 @@ namespace GaziProje
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox minTextBox;
+        private System.Windows.Forms.TextBox maxTextBox;
+        private System.Windows.Forms.Label label4;
     }
 }
