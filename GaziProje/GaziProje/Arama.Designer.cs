@@ -46,6 +46,7 @@ namespace GaziProje
             this.label4 = new System.Windows.Forms.Label();
             this.DegerlendirmeBtn = new System.Windows.Forms.Button();
             this.FiyatsiralaBtn = new System.Windows.Forms.Button();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listView1
@@ -54,11 +55,12 @@ namespace GaziProje
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader4,
+            this.columnHeader5});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(62, 136);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(822, 450);
+            this.listView1.Size = new System.Drawing.Size(846, 450);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -196,6 +198,11 @@ namespace GaziProje
             this.FiyatsiralaBtn.Text = "Sırala";
             this.FiyatsiralaBtn.UseVisualStyleBackColor = true;
             // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Değerlendirme";
+            this.columnHeader5.Width = 124;
+            // 
             // Arama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -245,5 +252,6 @@ namespace GaziProje
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button DegerlendirmeBtn;
         private System.Windows.Forms.Button FiyatsiralaBtn;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }
