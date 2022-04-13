@@ -51,5 +51,13 @@ namespace GaziProje
         {
             goruntule();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Rezervasyon_Görüntüleme rezervasyon_Görüntüleme = new Rezervasyon_Görüntüleme();
+            rezervasyon_Görüntüleme.Show();
+            Hide();                                 
+                
+        }
     }
 }
