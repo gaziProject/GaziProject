@@ -17,7 +17,7 @@ namespace GaziProje
         {
             InitializeComponent();
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\GaziProject\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Onur\\Documents\\GitHub\\GaziProject\\Halısaha.mdb");
         private void label4_Click(object sender, EventArgs e)
         {
 

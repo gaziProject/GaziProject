@@ -10,29 +10,17 @@ using System.Windows.Forms;
 
 namespace GaziProje
 {
-    public partial class AnaEkran : Form
+    public partial class girisyap : Form
     {
-        public AnaEkran()
+        public girisyap()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            girisyap yeni = new girisyap();
+            Arama yeni = new Arama();
             yeni.Show();
-            this.Hide();
-        }
-
-        private void AnaEkran_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            kayıtol obj = new kayıtol();
-            obj.Show();
             this.Hide();
         }
     }

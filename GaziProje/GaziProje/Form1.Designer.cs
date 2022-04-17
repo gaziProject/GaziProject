@@ -30,33 +30,42 @@ namespace GaziProje
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaEkran));
-            this.AraBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // AraBtn
+            // button1
             // 
-            this.AraBtn.BackColor = System.Drawing.Color.LimeGreen;
-            resources.ApplyResources(this.AraBtn, "AraBtn");
-            this.AraBtn.Name = "AraBtn";
-            this.AraBtn.UseVisualStyleBackColor = false;
-            this.AraBtn.Click += new System.EventHandler(this.AraBtn_Click);
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // AnaEkran
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Green;
-            this.Controls.Add(this.AraBtn);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.BackColor = System.Drawing.Color.LightGreen;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "AnaEkran";
+            this.Load += new System.EventHandler(this.AnaEkran_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button AraBtn;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
