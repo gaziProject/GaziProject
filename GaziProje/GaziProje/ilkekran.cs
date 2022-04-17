@@ -10,28 +10,30 @@ using System.Windows.Forms;
 
 namespace GaziProje
 {
-    public partial class girisyap : Form
+    public partial class AnaEkran : Form
     {
-        public girisyap()
+        public AnaEkran()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form2 yeni = new Form2();
+            girisyap yeni = new girisyap();
             yeni.Show();
             this.Hide();
         }
 
-        private void girisyap_Load(object sender, EventArgs e)
+        private void AnaEkran_Load(object sender, EventArgs e)
         {
-            
+            // şampiyonlar ligi müziği eklenecek
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            kayıtol obj = new kayıtol();
+            obj.Show();
+            this.Hide();
         }
     }
 }
