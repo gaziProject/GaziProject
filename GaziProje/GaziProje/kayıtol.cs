@@ -105,11 +105,12 @@ namespace GaziProje
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // required field özelliği eklenmesi lazım
-            
-            
-            
+            // required field özelliği eklenmesi lazım  
             MessageBox.Show("Kayıdınız Başarıyla Gerçekleşmiştir!!");
+
+            AnaEkran yeni = new AnaEkran();
+            yeni.Show();
+            this.Hide();
         }
     }
 }

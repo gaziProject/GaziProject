@@ -48,3 +48,5 @@ C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\Ga
 C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\tr\GaziProje.resources.dll
 C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\GaziProje.exe
 C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\GaziProje.pdb
+C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\GaziProje.Form2.resources
+C:\Users\onur_\Documents\GitHub\GaziProject\GaziProje\GaziProje\obj\x64\Debug\GaziProje.sifremiunuttum.resources

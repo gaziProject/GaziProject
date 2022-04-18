@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -104,6 +105,12 @@
     <Compile Include="Rezervasyon Görüntüleme.Designer.cs">
       <DependentUpon>Rezervasyon Görüntüleme.cs</DependentUpon>
     </Compile>
+    <Compile Include="sifremiunuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifremiunuttum.Designer.cs">
+      <DependentUpon>sifremiunuttum.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Arama.resx">
       <DependentUpon>Arama.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +140,9 @@
     </Compile>
     <EmbeddedResource Include="Rezervasyon Görüntüleme.resx">
       <DependentUpon>Rezervasyon Görüntüleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sifremiunuttum.resx">
+      <DependentUpon>sifremiunuttum.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
