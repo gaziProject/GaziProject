@@ -36,15 +36,15 @@ namespace GaziProje
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.pazartesi16 = new System.Windows.Forms.Label();
+            this.pazartesi17 = new System.Windows.Forms.Label();
+            this.pazartesi18 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.pazartesi20 = new System.Windows.Forms.Label();
+            this.pazartesi21 = new System.Windows.Forms.Label();
+            this.pazartesi22 = new System.Windows.Forms.Label();
+            this.pazartesi23 = new System.Windows.Forms.Label();
+            this.pazartesi19 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -103,54 +103,60 @@ namespace GaziProje
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 63);
+            this.label1.Location = new System.Drawing.Point(16, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(67, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pazartesi";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 110);
+            this.label2.Location = new System.Drawing.Point(16, 135);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 13);
+            this.label2.Size = new System.Drawing.Size(31, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Salı";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 158);
+            this.label3.Location = new System.Drawing.Point(16, 194);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.Size = new System.Drawing.Size(72, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Çarşamba";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 206);
+            this.label4.Location = new System.Drawing.Point(16, 254);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 13);
+            this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Perşembe";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 257);
+            this.label5.Location = new System.Drawing.Point(16, 316);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.Size = new System.Drawing.Size(44, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "Cuma";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 312);
+            this.label6.Location = new System.Drawing.Point(16, 384);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
+            this.label6.Size = new System.Drawing.Size(71, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Cumartesi";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -158,531 +164,590 @@ namespace GaziProje
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 375);
+            this.label7.Location = new System.Drawing.Point(16, 462);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(45, 17);
             this.label7.TabIndex = 6;
             this.label7.Text = "Pazar";
             // 
-            // label8
+            // pazartesi16
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(91, 63);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "16.00-17.00";
+            this.pazartesi16.AutoSize = true;
+            this.pazartesi16.Location = new System.Drawing.Point(121, 78);
+            this.pazartesi16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi16.Name = "pazartesi16";
+            this.pazartesi16.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi16.TabIndex = 7;
+            this.pazartesi16.Text = "16.00-17.00";
             // 
-            // label9
+            // pazartesi17
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(196, 63);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 13);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "17.00-18.00";
+            this.pazartesi17.AutoSize = true;
+            this.pazartesi17.Location = new System.Drawing.Point(261, 78);
+            this.pazartesi17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi17.Name = "pazartesi17";
+            this.pazartesi17.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi17.TabIndex = 8;
+            this.pazartesi17.Text = "17.00-18.00";
             // 
-            // label10
+            // pazartesi18
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(293, 63);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 13);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "18.00-19.00";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.pazartesi18.AutoSize = true;
+            this.pazartesi18.Location = new System.Drawing.Point(391, 78);
+            this.pazartesi18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi18.Name = "pazartesi18";
+            this.pazartesi18.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi18.TabIndex = 9;
+            this.pazartesi18.Text = "18.00-19.00";
+            this.pazartesi18.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(376, 39);
+            this.label11.Location = new System.Drawing.Point(501, 48);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 13);
+            this.label11.Size = new System.Drawing.Size(0, 17);
             this.label11.TabIndex = 10;
             // 
-            // label12
+            // pazartesi20
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(472, 63);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 13);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "20.00-21.00";
+            this.pazartesi20.AutoSize = true;
+            this.pazartesi20.Location = new System.Drawing.Point(629, 78);
+            this.pazartesi20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi20.Name = "pazartesi20";
+            this.pazartesi20.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi20.TabIndex = 11;
+            this.pazartesi20.Text = "20.00-21.00";
             // 
-            // label13
+            // pazartesi21
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(563, 63);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 13);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "21.00-22.00";
+            this.pazartesi21.AutoSize = true;
+            this.pazartesi21.Location = new System.Drawing.Point(751, 78);
+            this.pazartesi21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi21.Name = "pazartesi21";
+            this.pazartesi21.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi21.TabIndex = 12;
+            this.pazartesi21.Text = "21.00-22.00";
             // 
-            // label14
+            // pazartesi22
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(652, 63);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(64, 13);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "22.00-23.00";
+            this.pazartesi22.AutoSize = true;
+            this.pazartesi22.Location = new System.Drawing.Point(869, 78);
+            this.pazartesi22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi22.Name = "pazartesi22";
+            this.pazartesi22.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi22.TabIndex = 13;
+            this.pazartesi22.Text = "22.00-23.00";
             // 
-            // label15
+            // pazartesi23
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(734, 63);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(64, 13);
-            this.label15.TabIndex = 14;
-            this.label15.Text = "23.00-00.00";
+            this.pazartesi23.AutoSize = true;
+            this.pazartesi23.Location = new System.Drawing.Point(979, 78);
+            this.pazartesi23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi23.Name = "pazartesi23";
+            this.pazartesi23.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi23.TabIndex = 14;
+            this.pazartesi23.Text = "23.00-00.00";
             // 
-            // label16
+            // pazartesi19
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(384, 63);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(64, 13);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "19.00-20.00";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
+            this.pazartesi19.AutoSize = true;
+            this.pazartesi19.Location = new System.Drawing.Point(512, 78);
+            this.pazartesi19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.pazartesi19.Name = "pazartesi19";
+            this.pazartesi19.Size = new System.Drawing.Size(85, 17);
+            this.pazartesi19.TabIndex = 15;
+            this.pazartesi19.Text = "19.00-20.00";
+            this.pazartesi19.Click += new System.EventHandler(this.label16_Click);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(91, 110);
+            this.label17.Location = new System.Drawing.Point(121, 135);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(64, 13);
+            this.label17.Size = new System.Drawing.Size(85, 17);
             this.label17.TabIndex = 16;
             this.label17.Text = "16.00-17.00";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(91, 312);
+            this.label18.Location = new System.Drawing.Point(121, 384);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(64, 13);
+            this.label18.Size = new System.Drawing.Size(85, 17);
             this.label18.TabIndex = 17;
             this.label18.Text = "16.00-17.00";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(91, 257);
+            this.label19.Location = new System.Drawing.Point(121, 316);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(64, 13);
+            this.label19.Size = new System.Drawing.Size(85, 17);
             this.label19.TabIndex = 18;
             this.label19.Text = "16.00-17.00";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(91, 206);
+            this.label20.Location = new System.Drawing.Point(121, 254);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(64, 13);
+            this.label20.Size = new System.Drawing.Size(85, 17);
             this.label20.TabIndex = 19;
             this.label20.Text = "16.00-17.00";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(91, 158);
+            this.label21.Location = new System.Drawing.Point(121, 194);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(64, 13);
+            this.label21.Size = new System.Drawing.Size(85, 17);
             this.label21.TabIndex = 20;
             this.label21.Text = "16.00-17.00";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(91, 375);
+            this.label22.Location = new System.Drawing.Point(121, 462);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(64, 13);
+            this.label22.Size = new System.Drawing.Size(85, 17);
             this.label22.TabIndex = 21;
             this.label22.Text = "16.00-17.00";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(196, 375);
+            this.label23.Location = new System.Drawing.Point(261, 462);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 13);
+            this.label23.Size = new System.Drawing.Size(85, 17);
             this.label23.TabIndex = 22;
             this.label23.Text = "17.00-18.00";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(196, 312);
+            this.label24.Location = new System.Drawing.Point(261, 384);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(64, 13);
+            this.label24.Size = new System.Drawing.Size(85, 17);
             this.label24.TabIndex = 23;
             this.label24.Text = "17.00-18.00";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(196, 257);
+            this.label25.Location = new System.Drawing.Point(261, 316);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(64, 13);
+            this.label25.Size = new System.Drawing.Size(85, 17);
             this.label25.TabIndex = 24;
             this.label25.Text = "17.00-18.00";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(196, 206);
+            this.label26.Location = new System.Drawing.Point(261, 254);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(64, 13);
+            this.label26.Size = new System.Drawing.Size(85, 17);
             this.label26.TabIndex = 25;
             this.label26.Text = "17.00-18.00";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(196, 158);
+            this.label27.Location = new System.Drawing.Point(261, 194);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(64, 13);
+            this.label27.Size = new System.Drawing.Size(85, 17);
             this.label27.TabIndex = 26;
             this.label27.Text = "17.00-18.00";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(196, 110);
+            this.label28.Location = new System.Drawing.Point(261, 135);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(64, 13);
+            this.label28.Size = new System.Drawing.Size(85, 17);
             this.label28.TabIndex = 27;
             this.label28.Text = "17.00-18.00";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(293, 312);
+            this.label29.Location = new System.Drawing.Point(391, 384);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(64, 13);
+            this.label29.Size = new System.Drawing.Size(85, 17);
             this.label29.TabIndex = 28;
             this.label29.Text = "18.00-19.00";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(293, 257);
+            this.label30.Location = new System.Drawing.Point(391, 316);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(64, 13);
+            this.label30.Size = new System.Drawing.Size(85, 17);
             this.label30.TabIndex = 29;
             this.label30.Text = "18.00-19.00";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(293, 206);
+            this.label31.Location = new System.Drawing.Point(391, 254);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(64, 13);
+            this.label31.Size = new System.Drawing.Size(85, 17);
             this.label31.TabIndex = 30;
             this.label31.Text = "18.00-19.00";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(293, 158);
+            this.label32.Location = new System.Drawing.Point(391, 194);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(64, 13);
+            this.label32.Size = new System.Drawing.Size(85, 17);
             this.label32.TabIndex = 31;
             this.label32.Text = "18.00-19.00";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(293, 110);
+            this.label33.Location = new System.Drawing.Point(391, 135);
+            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(64, 13);
+            this.label33.Size = new System.Drawing.Size(85, 17);
             this.label33.TabIndex = 32;
             this.label33.Text = "18.00-19.00";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(293, 375);
+            this.label34.Location = new System.Drawing.Point(391, 462);
+            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(64, 13);
+            this.label34.Size = new System.Drawing.Size(85, 17);
             this.label34.TabIndex = 33;
             this.label34.Text = "18.00-19.00";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(384, 206);
+            this.label35.Location = new System.Drawing.Point(512, 254);
+            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(64, 13);
+            this.label35.Size = new System.Drawing.Size(85, 17);
             this.label35.TabIndex = 34;
             this.label35.Text = "19.00-20.00";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(384, 375);
+            this.label36.Location = new System.Drawing.Point(512, 462);
+            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(64, 13);
+            this.label36.Size = new System.Drawing.Size(85, 17);
             this.label36.TabIndex = 35;
             this.label36.Text = "19.00-20.00";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(384, 312);
+            this.label37.Location = new System.Drawing.Point(512, 384);
+            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(64, 13);
+            this.label37.Size = new System.Drawing.Size(85, 17);
             this.label37.TabIndex = 36;
             this.label37.Text = "19.00-20.00";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(384, 257);
+            this.label38.Location = new System.Drawing.Point(512, 316);
+            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(64, 13);
+            this.label38.Size = new System.Drawing.Size(85, 17);
             this.label38.TabIndex = 37;
             this.label38.Text = "19.00-20.00";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(384, 158);
+            this.label39.Location = new System.Drawing.Point(512, 194);
+            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(64, 13);
+            this.label39.Size = new System.Drawing.Size(85, 17);
             this.label39.TabIndex = 38;
             this.label39.Text = "19.00-20.00";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(384, 110);
+            this.label40.Location = new System.Drawing.Point(512, 135);
+            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(64, 13);
+            this.label40.Size = new System.Drawing.Size(85, 17);
             this.label40.TabIndex = 39;
             this.label40.Text = "19.00-20.00";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(472, 110);
+            this.label41.Location = new System.Drawing.Point(629, 135);
+            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(64, 13);
+            this.label41.Size = new System.Drawing.Size(85, 17);
             this.label41.TabIndex = 40;
             this.label41.Text = "20.00-21.00";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(472, 312);
+            this.label42.Location = new System.Drawing.Point(629, 384);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(64, 13);
+            this.label42.Size = new System.Drawing.Size(85, 17);
             this.label42.TabIndex = 41;
             this.label42.Text = "20.00-21.00";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(472, 257);
+            this.label43.Location = new System.Drawing.Point(629, 316);
+            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(64, 13);
+            this.label43.Size = new System.Drawing.Size(85, 17);
             this.label43.TabIndex = 42;
             this.label43.Text = "20.00-21.00";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(472, 206);
+            this.label44.Location = new System.Drawing.Point(629, 254);
+            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(64, 13);
+            this.label44.Size = new System.Drawing.Size(85, 17);
             this.label44.TabIndex = 43;
             this.label44.Text = "20.00-21.00";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(472, 158);
+            this.label45.Location = new System.Drawing.Point(629, 194);
+            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(64, 13);
+            this.label45.Size = new System.Drawing.Size(85, 17);
             this.label45.TabIndex = 44;
             this.label45.Text = "20.00-21.00";
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(472, 375);
+            this.label46.Location = new System.Drawing.Point(629, 462);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(64, 13);
+            this.label46.Size = new System.Drawing.Size(85, 17);
             this.label46.TabIndex = 45;
             this.label46.Text = "20.00-21.00";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(563, 375);
+            this.label47.Location = new System.Drawing.Point(751, 462);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(64, 13);
+            this.label47.Size = new System.Drawing.Size(85, 17);
             this.label47.TabIndex = 46;
             this.label47.Text = "21.00-22.00";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(563, 312);
+            this.label48.Location = new System.Drawing.Point(751, 384);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(64, 13);
+            this.label48.Size = new System.Drawing.Size(85, 17);
             this.label48.TabIndex = 47;
             this.label48.Text = "21.00-22.00";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(563, 257);
+            this.label49.Location = new System.Drawing.Point(751, 316);
+            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(64, 13);
+            this.label49.Size = new System.Drawing.Size(85, 17);
             this.label49.TabIndex = 48;
             this.label49.Text = "21.00-22.00";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(563, 206);
+            this.label50.Location = new System.Drawing.Point(751, 254);
+            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(64, 13);
+            this.label50.Size = new System.Drawing.Size(85, 17);
             this.label50.TabIndex = 49;
             this.label50.Text = "21.00-22.00";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(563, 158);
+            this.label51.Location = new System.Drawing.Point(751, 194);
+            this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(64, 13);
+            this.label51.Size = new System.Drawing.Size(85, 17);
             this.label51.TabIndex = 50;
             this.label51.Text = "21.00-22.00";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(563, 110);
+            this.label52.Location = new System.Drawing.Point(751, 135);
+            this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(64, 13);
+            this.label52.Size = new System.Drawing.Size(85, 17);
             this.label52.TabIndex = 51;
             this.label52.Text = "21.00-22.00";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(652, 312);
+            this.label53.Location = new System.Drawing.Point(869, 384);
+            this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(64, 13);
+            this.label53.Size = new System.Drawing.Size(85, 17);
             this.label53.TabIndex = 52;
             this.label53.Text = "22.00-23.00";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(652, 257);
+            this.label54.Location = new System.Drawing.Point(869, 316);
+            this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(64, 13);
+            this.label54.Size = new System.Drawing.Size(85, 17);
             this.label54.TabIndex = 53;
             this.label54.Text = "22.00-23.00";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(652, 206);
+            this.label55.Location = new System.Drawing.Point(869, 254);
+            this.label55.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(64, 13);
+            this.label55.Size = new System.Drawing.Size(85, 17);
             this.label55.TabIndex = 54;
             this.label55.Text = "22.00-23.00";
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(652, 158);
+            this.label56.Location = new System.Drawing.Point(869, 194);
+            this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(64, 13);
+            this.label56.Size = new System.Drawing.Size(85, 17);
             this.label56.TabIndex = 55;
             this.label56.Text = "22.00-23.00";
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(652, 110);
+            this.label57.Location = new System.Drawing.Point(869, 135);
+            this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(64, 13);
+            this.label57.Size = new System.Drawing.Size(85, 17);
             this.label57.TabIndex = 56;
             this.label57.Text = "22.00-23.00";
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(652, 375);
+            this.label58.Location = new System.Drawing.Point(869, 462);
+            this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(64, 13);
+            this.label58.Size = new System.Drawing.Size(85, 17);
             this.label58.TabIndex = 57;
             this.label58.Text = "22.00-23.00";
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(734, 312);
+            this.label59.Location = new System.Drawing.Point(979, 384);
+            this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(64, 13);
+            this.label59.Size = new System.Drawing.Size(85, 17);
             this.label59.TabIndex = 58;
             this.label59.Text = "23.00-00.00";
             // 
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(734, 257);
+            this.label60.Location = new System.Drawing.Point(979, 316);
+            this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(64, 13);
+            this.label60.Size = new System.Drawing.Size(85, 17);
             this.label60.TabIndex = 59;
             this.label60.Text = "23.00-00.00";
             // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(734, 206);
+            this.label61.Location = new System.Drawing.Point(979, 254);
+            this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(64, 13);
+            this.label61.Size = new System.Drawing.Size(85, 17);
             this.label61.TabIndex = 60;
             this.label61.Text = "23.00-00.00";
             // 
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(734, 158);
+            this.label62.Location = new System.Drawing.Point(979, 194);
+            this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(64, 13);
+            this.label62.Size = new System.Drawing.Size(85, 17);
             this.label62.TabIndex = 61;
             this.label62.Text = "23.00-00.00";
             // 
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(734, 110);
+            this.label63.Location = new System.Drawing.Point(979, 135);
+            this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(64, 13);
+            this.label63.Size = new System.Drawing.Size(85, 17);
             this.label63.TabIndex = 62;
             this.label63.Text = "23.00-00.00";
             // 
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(734, 375);
+            this.label64.Location = new System.Drawing.Point(979, 462);
+            this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(64, 13);
+            this.label64.Size = new System.Drawing.Size(85, 17);
             this.label64.TabIndex = 63;
             this.label64.Text = "23.00-00.00";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(520, 416);
+            this.button1.Location = new System.Drawing.Point(693, 512);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 64;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -691,42 +756,46 @@ namespace GaziProje
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(12, 416);
+            this.label65.Location = new System.Drawing.Point(16, 512);
+            this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(41, 13);
+            this.label65.Size = new System.Drawing.Size(54, 17);
             this.label65.TabIndex = 65;
             this.label65.Text = "label65";
             // 
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(12, 445);
+            this.label66.Location = new System.Drawing.Point(16, 548);
+            this.label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(41, 13);
+            this.label66.Size = new System.Drawing.Size(54, 17);
             this.label66.TabIndex = 66;
             this.label66.Text = "label66";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 408);
+            this.comboBox1.Location = new System.Drawing.Point(125, 502);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 67;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(94, 442);
+            this.comboBox2.Location = new System.Drawing.Point(125, 544);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.TabIndex = 68;
             // 
             // Rezervasyon_Görüntüleme
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 467);
+            this.ClientSize = new System.Drawing.Size(1091, 575);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label66);
@@ -780,15 +849,15 @@ namespace GaziProje
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pazartesi19);
+            this.Controls.Add(this.pazartesi23);
+            this.Controls.Add(this.pazartesi22);
+            this.Controls.Add(this.pazartesi21);
+            this.Controls.Add(this.pazartesi20);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.pazartesi18);
+            this.Controls.Add(this.pazartesi17);
+            this.Controls.Add(this.pazartesi16);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -796,6 +865,7 @@ namespace GaziProje
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Rezervasyon_Görüntüleme";
             this.Text = "Rezervasyon_Görüntüleme";
             this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load);
@@ -813,15 +883,15 @@ namespace GaziProje
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label pazartesi16;
+        private System.Windows.Forms.Label pazartesi17;
+        private System.Windows.Forms.Label pazartesi18;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label pazartesi20;
+        private System.Windows.Forms.Label pazartesi21;
+        private System.Windows.Forms.Label pazartesi22;
+        private System.Windows.Forms.Label pazartesi23;
+        private System.Windows.Forms.Label pazartesi19;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
