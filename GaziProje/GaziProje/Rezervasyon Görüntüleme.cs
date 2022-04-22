@@ -40,11 +40,12 @@ namespace GaziProje
 
         private void Rezervasyon_Görüntüleme_Load(object sender, EventArgs e)
         {
-            int counter = 16;
+            int counter = 15;
             foreach(Control c in this.Controls)
             {
                 if(c is Label)
                 {
+                    counter++;
                     if(((Label)c).Name=="pazartesi"+counter)
                     {
                         ((Label)c).Text = "mct";
