@@ -1,2 +1,0 @@
-# GaziProject
- gazi proje
