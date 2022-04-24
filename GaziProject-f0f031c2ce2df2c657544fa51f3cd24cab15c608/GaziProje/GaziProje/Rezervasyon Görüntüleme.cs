@@ -40,17 +40,7 @@ namespace GaziProje
 
         private void Rezervasyon_Görüntüleme_Load(object sender, EventArgs e)
         {
-            int counter = 16;
-            foreach(Control c in this.Controls)
-            {
-                if(c is Label)
-                {
-                    if(((Label)c).Name=="pazartesi"+counter)
-                    {
-                        ((Label)c).Text = "MCT";
-                    }
-                }
-            }
+           
         }
 
         private void label16_Click(object sender, EventArgs e)
@@ -65,7 +55,19 @@ namespace GaziProje
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int counter = 15;
+            foreach (Control c in this.Controls)
+            {
+                counter++;
+                if (c is Label)
+                {
+                   
+                    if (((Label)c).Name == "pazartesi" + counter)
+                    {
+                        ((Label)c).Text = counter.ToString();
+                    }
+                }
+            }
         }
     }
 }
