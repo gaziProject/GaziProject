@@ -21,6 +21,7 @@ namespace GaziProje
             comboBox1.Items.Add("Perşembe");
             comboBox1.Items.Add("Cuma");
             comboBox1.Items.Add("Pazar");
+            
 
             comboBox2.Items.Add("16.00-17.00");
             comboBox2.Items.Add("17.00-18.00");
@@ -37,10 +38,11 @@ namespace GaziProje
         {
 
         }
+        
 
         private void Rezervasyon_Görüntüleme_Load(object sender, EventArgs e)
         {
-           
+          
         }
 
         private void label16_Click(object sender, EventArgs e)
