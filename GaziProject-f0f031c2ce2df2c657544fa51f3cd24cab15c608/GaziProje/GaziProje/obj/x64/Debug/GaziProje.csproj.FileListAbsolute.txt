@@ -54,3 +54,23 @@ C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd
 C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
 C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.exe
 C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.pdb
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\bin\x64\Debug\GaziProje.exe.config
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\bin\x64\Debug\GaziProje.exe
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\bin\x64\Debug\GaziProje.pdb
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\bin\x64\Debug\tr\GaziProje.resources.dll
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.AssemblyReference.cache
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.Arama.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.Form2.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.AnaEkran.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.kayıtol.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.girisyap.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.Properties.Resources.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.Rezervasyon_Görüntüleme.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.sifremiunuttum.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.AnaEkran.tr.resources
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.GenerateResource.cache
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.CoreCompileInputs.cache
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\tr\GaziProje.resources.dll
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.exe
+C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.pdb
