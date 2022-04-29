@@ -16,7 +16,7 @@ namespace GaziProje
         {
             InitializeComponent();
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\\Users\\yibif\\OneDrive\\Masaüstü\\github gazi\\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\\Giriş Kaydol veritabanı.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C: \\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\GaziProject - f0f031c2ce2df2c657544fa51f3cd24cab15c608\\Giriş Kaydol veritabanı.mdb");
         private void button1_Click(object sender, EventArgs e)
         {
 
