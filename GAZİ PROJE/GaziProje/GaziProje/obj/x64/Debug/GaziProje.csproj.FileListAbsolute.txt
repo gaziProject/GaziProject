@@ -74,3 +74,7 @@ C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544
 C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\tr\GaziProje.resources.dll
 C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.exe
 C:\Users\yibif\OneDrive\Masaüstü\github Gazi\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x64\Debug\GaziProje.pdb
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.AssemblyReference.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x64\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x64\Debug\GaziProje.exe
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x64\Debug\GaziProje.pdb

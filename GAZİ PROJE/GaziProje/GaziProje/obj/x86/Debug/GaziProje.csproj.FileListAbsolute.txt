@@ -1,0 +1,2 @@
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.AssemblyReference.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
