@@ -1,2 +1,15 @@
 C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.AssemblyReference.cache
 C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject-f0f031c2ce2df2c657544fa51f3cd24cab15c608\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.AssemblyReference.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.Arama.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.Form2.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.AnaEkran.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.kayıtol.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.girisyap.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.Properties.Resources.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.Rezervasyon_Görüntüleme.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.sifremiunuttum.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.AnaEkran.tr.resources
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.GenerateResource.cache
+C:\Users\6ncaf\OneDrive\Masaüstü\git\GAZİ PROJE\GaziProje\GaziProje\obj\x86\Debug\GaziProje.csproj.CoreCompileInputs.cache
