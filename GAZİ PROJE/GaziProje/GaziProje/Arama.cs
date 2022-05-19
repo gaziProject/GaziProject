@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+
 //Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\6ncaf\OneDrive\Masaüstü\git\GaziProject\Halısaha.mdb
 namespace GaziProje
 {
+   
     public partial class Arama : Form
     {
+
         public Arama()
         {
             InitializeComponent();
